@@ -31,6 +31,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
+
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleMap.OnMapLongClickListener {
 
     private GoogleMap mMap;
@@ -137,9 +138,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
 
        /* we can use  OnMapLongListenerInterface
-
-
-
        mMap.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener()
            @Override
            public void onMapLongClick(LatLng latLng) {
@@ -185,3 +183,4 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Toast.makeText(getApplicationContext(), "Location saved", Toast.LENGTH_SHORT).show();
     }
 }
+
